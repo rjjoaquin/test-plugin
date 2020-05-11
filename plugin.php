@@ -1,9 +1,9 @@
 <?php
 /**
-* Plugin Name: Very First Plugin
-* Description: This is the very first plugin I ever created.
+* Plugin Name: Two Column Data
+* Description: Simple Two Column Data
 * Version: 1.0
-* Author: Your Name Here
+* Author: rjoaquin
 **/
 
 
