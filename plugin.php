@@ -6,7 +6,7 @@
 * Author: Your Name Here
 **/
 
-$content = <table>
+$content .= <table>
     <tr><th>Column 1</th><th>Column 2</th<</tr>
     <tr><td>Column 1 Text 1</td><td>Column 2 Text 1</td></tr>
     <tr><td>Column 1 Text 2</td><td>Column 2 Text 2</td></tr>
