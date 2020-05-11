@@ -6,8 +6,14 @@
 * Author: Your Name Here
 **/
 
-add_action( 'the_content', 'my_thank_you_text' );
+$content = <table>
+    <tr><th>Column 1</th><th>Column 2</th<</tr>
+    <tr><td>Column 1 Text 1</td><td>Column 2 Text 1</td></tr>
+    <tr><td>Column 1 Text 2</td><td>Column 2 Text 2</td></tr>
+    </table>;
 
-function my_thank_you_text ( $content ) {
-    return $content .= '<p>Thank you for reading!</p>';
+function the_table ( $content ) {
+    return $content;
 }
+
+add_action( 'the_content', 'the_table' );
